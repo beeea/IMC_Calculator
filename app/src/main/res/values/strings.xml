@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">IMC_Calculator</string>
+    <string name="imc">IMC</string>
+    <string name="hola">Hola</string>
+</resources>
