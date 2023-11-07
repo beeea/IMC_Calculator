@@ -11,8 +11,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val btn = findViewById<Button>(R.id.btn)
         btn.setOnClickListener { navigateToIMC() }
-        val btnIMC = findViewById<Button>(R.id.btnIMC)
-        btn.setOnClickListener { navigateToIMC() }
     }
 
     private fun navigateToIMC(){

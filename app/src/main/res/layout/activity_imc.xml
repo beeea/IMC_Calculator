@@ -27,6 +27,7 @@
             android:gravity="center">
 
             <ImageView
+                android:contentDescription="@string/mujer"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:src="@drawable/female"
@@ -36,7 +37,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:text="Mujer"
+                android:text="@string/mujer"
                 android:textAllCaps="true"
                 android:textColor="@color/title_text" />
         </androidx.appcompat.widget.LinearLayoutCompat>
@@ -47,7 +48,6 @@
         android:id="@+id/viewMale"
         android:layout_width="0dp"
         android:layout_height="150dp"
-
         app:cardBackgroundColor="@color/cardviews"
         app:cardCornerRadius="16dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -61,6 +61,7 @@
             android:gravity="center">
 
             <ImageView
+                android:contentDescription="@string/hombre"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:src="@drawable/male"
@@ -70,10 +71,56 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:text="Hombre"
+                android:text="@string/hombre"
                 android:textAllCaps="true"
                 android:textColor="@color/title_text" />
         </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/viewSlider"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:cardCornerRadius="16dp"
+        app:cardBackgroundColor="@color/cardviews"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewFemale"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_margin="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/altura"
+                android:textAllCaps="true"
+                android:textColor="@color/title_text"/>
+
+            <TextView
+                android:id="@+id/textviewHeight"
+                android:text="@string/_120_cm"
+                android:textColor="@color/white"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <com.google.android.material.slider.RangeSlider
+                android:contentDescription="@string/selecciona_tu_altura"
+                android:id="@+id/slider"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stepSize="1"
+                android:valueFrom="120"
+                android:valueTo="250" />
+        </LinearLayout>
 
     </androidx.cardview.widget.CardView>
 

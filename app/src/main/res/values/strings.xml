@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">IMC_Calculator</string>
-    <string name="imc">IMC</string>
-    <string name="hola">Hola</string>
+    <string name="imc">Calcular mi IMC</string>
+    <string name="mujer">Mujer</string>
+    <string name="altura">Altura</string>
+    <string name="_120_cm">120 cm</string>
+    <string name="hombre">Hombre</string>
+    <string name="selecciona_tu_altura">Selecciona tu altura</string>
 </resources>

@@ -10,6 +10,7 @@
 
     <color name="cardviews">#161C2E</color>
     <color name="background_color">#0D0E18</color>
+    <color name="background_cardview_selected">#283253</color>
     <color name="title_text">#B1B1B1</color>
 
 </resources>
