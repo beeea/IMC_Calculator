@@ -6,4 +6,8 @@
     <string name="_120_cm">120 cm</string>
     <string name="hombre">Hombre</string>
     <string name="selecciona_tu_altura">Selecciona tu altura</string>
+    <string name="peso">peso</string>
+    <string name="num_peso">60</string>
+    <string name="num_edad">60</string>
+    <string name="edad">edad</string>
 </resources>
