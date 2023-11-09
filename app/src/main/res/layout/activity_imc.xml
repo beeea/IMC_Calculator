@@ -150,6 +150,7 @@
                 android:textColor="@color/title_text"/>
 
             <TextView
+                android:id="@+id/tvWeight"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/num_peso"
@@ -245,5 +246,15 @@
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="@color/teal_700"
+        android:text="@string/calcular" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
