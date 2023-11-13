@@ -11,4 +11,5 @@
     <string name="num_edad">60</string>
     <string name="edad">edad</string>
     <string name="calcular">Calcular</string>
+    <string name="recalcular">Volver a calcular</string>
 </resources>
