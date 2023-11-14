@@ -113,13 +113,16 @@
                 android:layout_height="wrap_content"/>
 
             <com.google.android.material.slider.RangeSlider
-                android:contentDescription="@string/selecciona_tu_altura"
                 android:id="@+id/slider"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:contentDescription="@string/selecciona_tu_altura"
+                android:fadeScrollbars="false"
+                android:scrollbarThumbHorizontal="@color/teal_700"
+                android:soundEffectsEnabled="true"
                 android:stepSize="1"
                 android:valueFrom="120"
-                android:valueTo="250" />
+                android:valueTo="200" />
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>

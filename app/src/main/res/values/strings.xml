@@ -12,4 +12,18 @@
     <string name="edad">edad</string>
     <string name="calcular">Calcular</string>
     <string name="recalcular">Volver a calcular</string>
+
+    <string name="error">Error</string>
+
+    <string name="bajo_peso">Bajo peso</string>
+    <string name="def_bajo_peso">Tu peso es inferior al rango saludable, posiblemente indicando una ingesta calórica insuficiente.</string>
+
+    <string name="peso_normal">Peso normal</string>
+    <string name="def_peso_normal">Tu peso está en un rango adecuado para tu altura y constitución, sugiriendo un estado de salud óptimo.</string>
+
+    <string name="sobrepeso">Sobrepeso</string>
+    <string name="def_sobrepeso">Tienes un exceso de peso que podría afectar tu salud, aunque aún no alcanza niveles de obesidad.</string>
+
+    <string name="obesidad">Obesidad</string>
+    <string name="def_obesidad">Tu peso está significativamente por encima de lo recomendado, lo que podría aumentar el riesgo de problemas de salud. Es importante abordarlo de manera consciente y tomar medidas para gestionarlo adecuadamente.</string>
 </resources>

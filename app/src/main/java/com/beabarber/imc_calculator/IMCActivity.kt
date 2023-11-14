@@ -25,7 +25,7 @@ class IMCActivity : AppCompatActivity() {
     private lateinit var btnCalcular:Button
 
     private var isFemaleSelected:Boolean = true
-    private var isMaleSelected:Boolean = true
+    private var isMaleSelected:Boolean = false
     private var currentWeight:Int = 60
     private var currentHeight:Int = 150
 
@@ -91,8 +91,8 @@ class IMCActivity : AppCompatActivity() {
         tvWeight.text = currentWeight.toString()
     }
     private fun changeGender(){
-        isFemaleSelected = !isMaleSelected
-        isMaleSelected = !isFemaleSelected
+        isFemaleSelected = !isFemaleSelected
+        isMaleSelected = !isMaleSelected
     }
 
     private fun setGenderColor() {
